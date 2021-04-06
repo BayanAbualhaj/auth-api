@@ -55,7 +55,7 @@ describe('Auth Router', () => {
 
         // First, use basic to login to get a token
         const bearerResponse = await mockRequest
-          .get('/users')
+          .get('/secret')
           .set('Authorization', `Bearer ${token}`)
 
         // Not checking the value of the response, only that we "got in"
@@ -94,7 +94,7 @@ describe('Auth Router', () => {
 
         // First, use basic to login to get a token
         const bearerResponse = await mockRequest
-          .get('/users')
+          .get('/secret')
           .set('Authorization', `Bearer foobar`)
 
         // Not checking the value of the response, only that we "got in"

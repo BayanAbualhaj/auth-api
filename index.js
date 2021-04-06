@@ -12,7 +12,7 @@ const options = {
 mongoose.connect(process.env.MONGODB_URI, options).then(()=>{
   
   // Start the web server
-  require('./src/server').startup(process.env.PORT);
+require('./src/server').start(process.env.PORT);
 
 }).catch((err)=>{
   console.log("CONNECTION ERROR  ",err);
