@@ -4,9 +4,9 @@
 
 
 #### deployment and pull requests:
-* [Heroku]()
-* [Pull request]()
-* [actions]()
+* [Heroku](https://ba-auth-api.herokuapp.com/)
+* [Pull request](https://github.com/BayanAbualhaj/auth-api/pull/1)
+* [actions](https://github.com/BayanAbualhaj/auth-api/actions)
 
 #### Running the app
 * nodemon 
@@ -27,10 +27,15 @@
 
 #### Tests:
 * npm test. 
-* postman test 
+* postman test.
+
+#### Notes :
+* all test were done and passed 
 
 
 #### UML
 
 ![UML](assets/Blankboard(12).png)
+
+ * **Note:** in the previous UML its the same DB but I made it like that to just be organized
 
